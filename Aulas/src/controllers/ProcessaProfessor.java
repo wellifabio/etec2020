@@ -3,17 +3,21 @@ package controllers;
 import java.util.ArrayList;
 
 import models.Professor;
+import models.dao.ProfessorDAO;
 
 public class ProcessaProfessor {
 
 	private static ArrayList<Professor> professores = new ArrayList<>();
+	private static ProfessorDAO pd = new ProfessorDAO();
 
 	public static ArrayList<Professor> getProfessores() {
+		professores = pd.open();
 		return professores;
 	}
 
 	public static void setProfessores(ArrayList<Professor> professores) {
 		ProcessaProfessor.professores = professores;
+		pd.save(professores);
 	}
 	
 	public static Professor getProfessor(int id) {

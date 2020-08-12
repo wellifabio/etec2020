@@ -78,7 +78,7 @@ public class MainForm extends JFrame implements ActionListener {
 		} else if (e.getSource() == miAula) {
 			
 		} else {
-			JOptionPane.showMessageDialog(this, "Adeus.");
+			JOptionPane.showMessageDialog(this, "Até logo.");
 			dispose();
 		}
 	}

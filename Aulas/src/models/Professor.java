@@ -11,5 +11,9 @@ public class Professor extends Pessoa {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+
+	public String getCSV() {
+		return getId()+";"+super.getNome()+";"+super.getNascimento()+";"+super.getTelefone()+"\r\n";
+	}
+
 }
