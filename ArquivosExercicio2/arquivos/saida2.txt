@@ -1,0 +1,4 @@
+Origem: Americana Destino: Jaguariúna tempo 1,18
+Origem: Jaguariúna Destino: Pirassununga tempo 1,02
+Origem: Pirassununga Destino: São Paulo tempo 1,91
+Origem: PosoAlegre Destino: Jaguariúna tempo 0,43
