@@ -16,7 +16,7 @@ public class NotasDAO {
 	private BufferedWriter bw;
 	private Nota nota;
 	private String entrada = ".\\arquivos\\entrada1.txt";
-	private String saida = ".\\arquivos\\saida1.txt";
+	private String saida = ".\\arquivos\\saida.txt";
 	
 	public ArrayList<Nota> openEntrada(){
 		ArrayList<Nota> notas = new ArrayList<>();
