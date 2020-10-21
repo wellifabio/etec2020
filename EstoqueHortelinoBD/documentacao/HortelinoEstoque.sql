@@ -42,15 +42,17 @@ delimiter ;
 
 -- Para popular (Preencer o Banco de dados com Registros) para testar
 insert into Products values
-(default,"Porca","Porca",0.99,887),
-(default,"Parafuso","Parafuso",2.9,690),
+(default,"Porca","Porca",0.99,1000),
+(default,"Parafuso","Parafuso",2.9,1000),
 (default,"Prego","Prego",1.99,1000),
-(default,"Prego","Prego Grande",0.1,780),
+(default,"Prego","Prego Grande",0.1,1000),
 (default,"Luva pequena","Luva PVC",2.99,100),
-(default,"Lâmpada Florecente","Lâmpada Florecente",6.45,98),
-(default,"Lâpada Led","Lâmpadas de LED",18.3,300),
-(default,"Chave de Fenda","Chave de Fenda Grande",13.45,98),
-(default,"Parafuzo","Parafuzo Sextavado",10.0,100);
+(default,"Lâmpada Florecente","Lâmpada Florecente",6.45,100),
+(default,"Lâpada Led","Lâmpadas de LED",18.3,100),
+(default,"Chave de Fenda","Chave de Fenda Grande",13.45,100),
+(default,"Parafuzo","Parafuzo Sextavado",10.0,1000);
+
+select * from products;
 
 insert into Sales (dat,hour,id_prod,quantity,sales_price)
 values
@@ -72,9 +74,19 @@ values
 (curdate()-3,"09:22",1,10,calc_sales_price(1,10)),
 (curdate()-3,"09:23",4,20,calc_sales_price(4,20)),
 (curdate()-3,"09:39",8,1,calc_sales_price(8,1)),
-(curdate()-2,"10:46",7,100,calc_sales_price(7,100)),
+(curdate()-2,"10:46",7,10,calc_sales_price(7,10)),
 (curdate()-1,"08:38",1,12,calc_sales_price(1,12)),
 (curdate(),"08:38",1,12,calc_sales_price(1,12)),
 (curdate(),"10:38",2,20,calc_sales_price(2,20));
 
+create view vw_products as
+select id, name, descript, price, quantity, price * quantity as subtotal from products;
+create view vw_sales as
+select dat, count(n) as n_sales, sum(quantity) as total_itens, sum(sales_price) total_money from sales group by dat;
+
+select * from products;
+select * from vw_products;
+select * from sales;
+select * from vw_sales;
+show tables;
 
