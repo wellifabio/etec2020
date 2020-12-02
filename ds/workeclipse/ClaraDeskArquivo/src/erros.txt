@@ -1,0 +1,4 @@
+Erros Funcionais observados (Correção deve ser agendada):
+1:Erro de consistência de dados - Permite cadastrar consulta sem ter Atendente(Auxiliar) cadastrada, porem da erro ao Salvar
+2:Erro de integridade referencial - Permite Deletar Paciente com consultas agendadas.
+3:Erro de integridade referencial - Permite Deletar Funcionarios com consultas agendadas.

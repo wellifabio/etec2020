@@ -1,0 +1,94 @@
+﻿I.16 TÉCNICAS DE PROGRAMAÇÃO E ALGORITMOS 16
+
+Função: Elaboração de Programas com Linguagens de Programação
+Classificação: Execução
+
+Atribuições e Responsabilidades 
+• Verificar usabilidade no desenvolvimento de programas.
+• Realizar versionamento no desenvolvimento de programas. 
+• Desenvolver programas de computador, utilizando princípios de boas práticas.
+• Implementar algoritmos em linguagem de programação, utilizando ambientes de desenvolvimento de acordo com as necessidades.
+
+Competências
+1. Implementar algoritmos de programação. 
+2. Desenvolver sistemas aplicando princípios e paradigmas de programação. 
+
+Habilidades
+1.1 Elaborar Algoritmos.
+2.1 Codificar programas, utilizando técnica de programação estruturada.
+2.2 Depurar e versionar programas, utilizando ambiente de desenvolvimento integrado.
+
+Bases Tecnológicas
+
+Conceitos de Lógica de Programação e construção de algoritmos 
+Princípios de programação
+• Paradigmas de programação;
+• Conceitos de usabilidade de sistemas;
+• Linguagens de programação e códigos fonte, objeto e arquivo executável. 
+ 
+Comandos da linguagem de programação
+• Funções pré-definidas;
+• Expressões e tabela da verdade;
+• Tratamento de erros e exceções;
+• Memória, tipos de dados e variáveis;
+• Entrada, saída e conversão de tipos;
+• Operadores aritméticos, relacionais e lógicos. 
+ 
+Programação estruturada
+• Laços;
+• Iteração;
+• Teste de mesa;
+• Decisão simples;
+• Decisão múltipla.
+
+Ferramentas para o desenvolvimento
+• Ambiente integrado de desenvolvimento (IDE);
+• Editor de código:
+	✓ navegação;
+	✓ completar comandos;
+	✓ coloração de sintaxe;
+	✓ marcas de erro.
+• Compilação, empacotamento e distribuição (build and deploy);
+• Bibliotecas, frameworks e gestão de dependências;
+• Modularização e organização em projetos de programas e sistemas. 
+ 
+Verificação e depuração de código
+• Execução passo a passo;
+• Criação de pontos de interrupção (breakpoints);
+• Visualização de valores de variáveis em tempo de execução;
+• Pilha de chamadas (call stack);
+• Interpretação de informações detalhadas sobre exceções.
+ 
+Programação modular
+• Sub-rotinas;
+• Recursividade;
+• Procedimentos e funções;
+• Argumentos e escopo de identificadores. 
+ 
+Tipos de dados estruturados
+• Vetores;
+• Matrizes;
+• Arquivos binários e de texto. 
+ 
+Versionamento e colaboração
+• Conceitos de controle de versão e gestão de código fonte;
+• Software livre e colaboração com repositórios remotos;
+• Criação de repositórios locais e remotos;
+• Envio (commit) e resgate de versões, checkin e checkout;
+• Controle de usuários para o desenvolvimento colaborativo;
+• Ramificação (branch), comparação (diff) e mesclagem (merge). 
+ 
+Práticas de programação
+• Estilo de codificação, indentação, legibilidade, comentários;
+• Refatoração;
+• Programação em par;
+• Testes unitários.
+
+Prática em Laboratório*
+120 Total  120 Horas-aula
+* Possibilidade de divisão de classes em turmas, conforme o item 4.9 do Plano de Curso. 
+* Todos os componentes curriculares preveem prática, expressa nas habilidades relacionadas às competências.
+Para este componente curricular, está prevista divisão de classes em turmas.
+
+Para ter acesso às titulações dos Profissionais habilitados a ministrarem aulas neste componente curricular,
+consultar o site: http://www.cpscetec.com.br/crt/ 

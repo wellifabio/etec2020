@@ -1,0 +1,4 @@
+Abstração, Herança e Polimorfismo a base de um bom código https://www.youtube.com/watch?v=qiGTRJlCnlA
+Video sobre Design Patterns https://www.youtube.com/watch?v=8vq2QB4ogKM
+Video Filipe Deschamps - Design Pattern (Factory) https://www.youtube.com/watch?v=arAz2Ff8s88
+Usa JavaScript, explica o que são funções e objetos.

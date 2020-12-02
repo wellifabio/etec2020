@@ -1,0 +1,4 @@
+Ana,7,5,3
+Bruna,10,8,9
+Marcos,7,3,5
+Juliano,4,8,2
